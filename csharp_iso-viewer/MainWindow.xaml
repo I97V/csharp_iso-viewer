@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:csharp_iso_viewer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ISO Viewer" Height="106.5" Width="659" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Foreground="#FF101010">
+    <Window.Background>
+        <SolidColorBrush Color="#FF101010"/>
+    </Window.Background>
     <Grid>
-        
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="568,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Browse_Click" Background="#FF101010" Foreground="White"/>
+        <Button Content="Open" HorizontalAlignment="Left" Margin="360,38,0,0" VerticalAlignment="Top" Width="283" Height="28" Click="Open_Click" Background="#FF101010" Foreground="White"/>
+        <TextBox x:Name="tb_path" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text=":\\path" VerticalAlignment="Top" Width="553" Background="#FF101010" Foreground="White"/>
     </Grid>
 </Window>

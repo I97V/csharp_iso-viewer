@@ -1,0 +1,15 @@
+﻿<Window x:Class="csharp_iso_viewer.Redactor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:csharp_iso_viewer"
+        mc:Ignorable="d"
+        Title="Redactor" Height="750" Width="1280" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
+    <Grid Background="#FF101010">
+        <Image x:Name="image" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center"/>
+        <Button x:Name="btn_back" Content="&lt;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Height="40" Click="Back_Click" Background="#FF101010" Foreground="White" FontSize="25"/>
+        <Button x:Name="btn_next" Content="&gt;" HorizontalAlignment="Left" Margin="74,0,0,0" VerticalAlignment="Top" Width="74" Height="40" Click="Next_Click" Background="#FF101010" Foreground="White" FontSize="25"/>
+        <Label x:Name="lable_filename" Content="filename" HorizontalAlignment="Left" Margin="0,40,0,0" VerticalAlignment="Top" Width="270" Foreground="White"/>
+    </Grid>
+</Window>
