@@ -32,3 +32,6 @@
 *.app
 
 .vs
+
+csharp_iso-viewer/bin
+csharp_iso-viewer/obj
